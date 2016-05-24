@@ -8,19 +8,24 @@
        * {
          font-family: 'Didact Gothic', sans-serif;
        }
-       h1, h2, u {
+       h1, h2 {
          margin-left: auto; margin-right: auto; text-align: center; 
        }
-       ul {
+       ul.links {
         padding-left: 0;
        }
-       li {
+       ul.links li {
          list-style: none;
          text-align: center;
        }
-       .links li a {
+       ul.links li a {
          text-decoration: none;
          color: inherit;
+         transition: all 0.2s linear;
+       }
+       ul.links li a:hover, ul.links li a:focus {
+         color: #4078c0;
+         text-decoration: underline;
        }
     </style>
   </head>
